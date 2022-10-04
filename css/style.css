@@ -9,7 +9,7 @@ body {
 {
     text-align: center;
     clear: both;
-    height: 2160px;
+    height: 1900px;
     width: 960px;
     border-radius: 5px;
     border-style: solid;
@@ -76,23 +76,71 @@ body {
 {
     margin-left: 20px;
     margin-top: 10px;
-    height: calc(40% - 10px);
+    height: calc(45.9% - 10px);
     width: 60%;
     background-color: #d2e3ea;
     color: black;
     font-size: 10px;
 }
 
+#welcome .welcomep1
+{
+    float: left;
+}
+
+#welcome .contentButton
+{
+    margin-left: 20px;
+}
+
+
+#welcome img{
+    float: left;
+    margin: 20px;
+    height: 44%;
+}
+#welcome p{
+    margin: 20px;
+    text-align: justify;
+}
+#welcome span{
+    text-align: left;
+}
+#welcome button{
+    float: left;
+    margin-bottom: 40px;
+}
+#welcome table{
+    width: 90%;
+    margin: 25px;
+}
+#welcome table thead th{
+    background-color: #82bede;
+    padding-left: 20px;
+}
+#welcome table td{
+    padding-left: 20px;
+}
 #who
 {
     margin-left: 20px;
     margin-top: 10px;
-    height: calc(30% - 10px);
+    height: calc(28% - 10px);
     width: 60%;
     background-color: #d2e3ea;
-    font-size: 10px;
+    font-size: 15px;
     color: black;
     text-align: center;
+}
+
+#who p
+{
+    font-size: 15px;
+}
+
+#who .contentButton
+{
+    margin-left: 15px;
 }
 
 #newsletter
@@ -100,9 +148,22 @@ body {
     margin-left: 20px;
     margin-top: 10px;
     margin-bottom: 10px;
-    height: calc(15% - 20px);
+    height: calc(10% - 20px);
     width: 60%;
     background-color: #d2e3ea;
+    float: left;
+}
+
+#newsletter input{
+    margin: 10px;
+    margin-bottom: 0px;
+    border-radius: 5px;
+    width: 90%;
+}
+
+#newsletter .contentButton
+{
+    margin-top: 20px;
 }
 
 #stopka
@@ -110,7 +171,25 @@ body {
     height: 3%;
     width: 100%;
     float: left;
-    background-color: #355e70;
+    background-color: #82bede;
+}
+
+#stopka img
+{
+    height: 50px;
+    width: 50px;
+    float: left;
+}
+
+#stopka p
+{
+    margin: 0px;
+    text-align: center;
+}
+
+#stopka .lblue
+{
+    color: #285c79;
 }
 
 .topbar
@@ -120,6 +199,18 @@ body {
     height: 40px;
     float: left;
     background-color: #82bede;
+    text-align: left;
+    font-size: 15px;
+}
+
+.topbar a{
+    margin: 0px;
+    padding: 0px;
+    vertical-align: middle;
+}
+
+.topbar img{
+    margin: 10px;
 }
 
 .arrowbutton
@@ -138,16 +229,12 @@ p
     font-size: 10px;
 }
 
-#welcome p
-{
-    float: left;
-}
 
 #worldmap
 {
     margin-top: 10px;
-    width: 80%;
-    height: 60%;
+    width: 60%;
+    height: 40%;
 }
 
 .topbutton
@@ -163,13 +250,24 @@ p
     height: 25px;
 }
 
+.contentButton
+{
+    border: none;
+    background-color: #98c0cf;
+    margin-left: 7px;
+    float: left;
+    width: 100px;
+    height: 25px;
+}
+
+
+
 .readmorebtn
 {
     border: none;
     background-color: #98c0cf;
     position: relative;
-    right: 47%;
-    transform: translateX(+50%);
+
     width: 100px;
     height: 25px;
 }
@@ -187,9 +285,9 @@ p
 
 .welcomeimg
 {
-    margin-top: 20px;
-    margin-left: calc((100%-96px)/8);
-    margin-right: calc((100%-96px)/8);
+    height: 64px;
+    width: 64px;
+    text-align: center;
 }
 
 .welcomep
@@ -224,6 +322,51 @@ h3
     text-align: center;
 }
 
+#who table{
+    color: black;
+    border-color: #328dbd;
+    border-width: 1px;
+    border-style: solid;
+    border-collapse: collapse;
+    margin: 10px;
+}
+#who table td{
+    border-color: #328dbd;
+    border-width: 1px;
+    border-style: solid;
+    border-collapse: collapse;
+}
+#who table th{
+    border-color: #328dbd;
+    border-width: 1px;
+    border-style: solid;
+    border-collapse: collapse;
+}
+
+#who button{
+    float: left;
+}
+svg{
+    height: 20px;
+    width: 20px;
+    fill: #328dbd;
+}
+#who p{
+    margin: 10px;
+    color: black;
+    text-align: justify;
+}
+blockquote{
+    color: black;
+    text-align: justify;
+    float: right;
+    background-color: #bfddee;
+    padding: 15px;
+    width: 80%;
+}
+blockquote img{
+    float: left;
+}
 #menu1
 {
     background-image: url(../img/back.gif);
