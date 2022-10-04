@@ -1,0 +1,136 @@
+#container {
+  text-align: center;
+  clear: both;
+  height: 2160px;
+  width: 960px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  background-color: #82bede;
+}
+
+#banner {
+  height: 12%;
+  width: 100%;
+  float: left;
+  background-color: #82bede;
+}
+
+#banner img {
+  width: 100%;
+  height: 100%;
+}
+
+#navbar {
+  height: 2%;
+  width: 100%;
+  float: left;
+  background-color: #355e70;
+}
+
+/*menu*/
+#menu2 {
+  text-align: center;
+  margin: 50px 0 50px 0;
+}
+
+.topbutton {
+  border: none;
+  background-color: #98c0cf;
+  margin-left: 7px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  float: left;
+  width: 100px;
+  height: 25px;
+}
+
+#menu2 ul {
+  margin: 0;
+  list-style: none;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+#menu2 li {
+  display: inline;
+}
+
+#menu2 li a {
+  display: block;
+  margin-top: 6px;
+  height: 30px;
+  float: left;
+  color: #000;
+  text-decoration: none;
+  font: normal 14px/22px 'latomedium', arial,sans-serif;
+  padding: 0 0 0 12px;
+  background: url(../img/pro_nine_0a.gif) no-repeat;
+}
+
+#menu2 li a b {
+  height: 100%;
+  float: left;
+  display: block;
+  background: url(../img/pro_nine_0.gif) right top;
+  padding: 0 12px 0 0;
+}
+
+#menu2 li a:hover {
+  background: url(../img/pro_nine_1a.gif) no-repeat;
+}
+
+#menu2 li a:hover b {
+  background: url(../img/pro_nine_1.gif) right top;
+}
+
+/*galeria*/
+body {
+  min-height: 100vh;
+  display: grid;
+  place-content: start center;
+  background: linear-gradient(#fff, #aaa, #fff);
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  padding: 4% 2%;
+  box-sizing: border-box;
+  height: 100vh;
+}
+
+.box {
+  flex: 1;
+  overflow: hidden;
+  transition: .5s;
+  margin: 0 2%;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
+  line-height: 0;
+}
+
+.box > img {
+  width: 200%;
+  height: calc(100% - 10vh);
+  object-fit: cover;
+  transition: .5s;
+}
+
+.box > span {
+  font-size: 1.8vh;
+  display: block;
+  text-align: center;
+  height: 10vh;
+  line-height: 2.6;
+}
+
+.box:hover {
+  flex: 1 1 50%;
+}
+
+.box:hover > img {
+  width: 100%;
+  height: 100%;
+}
